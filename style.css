@@ -25,5 +25,12 @@ body{
 }
 
 footer{
-    display: flexu;
+    position: absolute;
+    bottom: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+
 }
