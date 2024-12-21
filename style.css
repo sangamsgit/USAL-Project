@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: rgba(255, 184, 53, 0.549);
 }
 * {
     margin: 0;
@@ -21,7 +21,7 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color:#B0C4DE
+    background-color:skyblue
 }
 /* #D1E8FF #AFCBFF #B0C4DE */
 .logo-img{
@@ -80,9 +80,19 @@ main{
     margin: auto;
 }
 .box1 img{
+    width: 167px;
+    height: 90px;
+    /* margin: 20px 20px; */
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero img{
     width: 360px;
-    height: 290px;
+    height: 190px;
     margin: 20px 20px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
 .about p{
@@ -161,17 +171,68 @@ a{
 
 /* Faq Section */
 
+.color{
+    color: red;
+}
+
 .faq-section{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 20px auto;
-    height: 390px;
+    border: 1px solid red;
+    height: auto;
     width: 90%;
-    background: linear-gradient(135deg, rgb(8, 69, 97), rgb(2, 149, 229), skyblue);
+    /* background: linear-gradient(135deg, rgb(8, 69, 97), rgb(2, 149, 229), skyblue); */
     font-size: 1.789rem;
     color: bisque;
     gap: 1rem;
 }
+
+.logo-footer{
+    margin-right: 300px ;
+    margin-bottom: 50px;
+}
+
+.faq-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 2.1rem;
+    color: #000000c4;
+    font-weight: bolder;
+}
+
+.faq-question{
+    font-size: 1.2rem;
+    margin-left: 15px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+}
+
+.faq-answer{
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px 20px;
+    font-weight: bold;
+    background-color: #16a3b6;
+
+    /* #055a91 */
+}
+
+
+/* Our Services */
+.services-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    color: #000000f3;
+    font-weight: bolder;
+}
+
+
+
+/* For Contact Us */
